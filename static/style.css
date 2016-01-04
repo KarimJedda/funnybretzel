@@ -1,0 +1,121 @@
+    body {
+      font: 16px/1.5em  'Roboto Mono', 'Consolas', 'Andale Mono', 'Monaco', 'Courier New', Courier, monospace;
+      padding: 1ch;
+      margin: 0;
+    }
+    body .contentlist:after {
+      content: ' ˵✖‿✖˵';
+    }
+    body .content:after {
+      content: '  ʕಠᴥಠʔ';
+    }
+    main, footer, body > header {
+      max-width: 64ch;
+      margin: auto;
+    }
+    main {
+      box-sizing: border-box;
+      padding: 1ch 0 2ch;
+      min-height: calc(100vh - 12ch);
+    }
+    h1 {
+      font-size: 1.6em;
+      font-weight: 700;
+    }
+    h1, .timestamp {
+      margin: 0;
+    }
+
+    a {
+      color: black;
+      background-image: linear-gradient(to bottom,black 75%,black 75%);
+      text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+      background-repeat: repeat-x;
+      background-size: 1px 1px;
+      background-position: 0 96%;
+      text-decoration: none;
+    }
+    nav a {
+        color: black;
+        background-image: linear-gradient(to bottom,black 75%,black 75%);
+    }
+    .heading a {
+      color: black;
+      background-image: linear-gradient(to bottom,black 75%,black 75%);
+    }
+    .heading {
+      margin: 0 0 2ch;
+      padding: 0;
+    }
+    article.txt p {
+      white-space: pre-wrap;
+    }
+    .content a {
+      text-shadow: none;
+      background-image: none;
+      background-color: #333;
+      color: #EEE;
+      padding: 1ch;
+      border: 0;
+    }
+    .contentlist a {
+      text-shadow: none;
+      background-image: none;
+      background-color: #333;
+      color: #EEE;
+      padding: 1ch;
+      border: 0;
+    }
+    hr {
+      border: 1px solid #ECECEC;
+    }
+    p {
+      margin: 1.2em 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.3em;
+      margin-bottom: 3px;
+    }
+    ul {
+    list-style-position: inside;
+    }
+    nav ul {
+        margin-bottom: 3px;
+    }
+    pre {
+      padding: 1ch;
+      background-color: #f4f4f4;
+      overflow-x: auto;
+    }
+    ul, ol {
+      padding-left: 0;
+    }
+    li > ul, li > ol {
+      padding-left: 2ch;
+    }
+    blockquote {
+      font-style: italic;
+      margin: 1.5em 2ch;
+    }
+    img {
+      max-width:100%;
+      display: block;
+      margin: 0 auto;
+      padding: 1em;
+        
+    }
+    nav ul li {
+        display: inline;
+    }
+    footer a {
+      color: lightgrey;
+      background-image: linear-gradient(to bottom,lightgrey 75%,lightgrey 75%);
+    }
+    @media screen and (min-width:1367px) {
+      body {
+        font: 24px/1.75em 'Roboto Mono';
+      }
+      hr {
+        border: 4px solid #ECECEC;
+      }
+    }
