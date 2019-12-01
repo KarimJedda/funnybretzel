@@ -1,20 +1,43 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://karimjedda.github.io/funnybretzel/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/</loc>
 </url>
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/about.html</loc>
+<lastmod>2019-01-13T20:11:43+01:00</lastmod>
 </url>
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/control-your-server-using-whatsapp.html</loc>
+<lastmod>2019-01-14T18:14:14+01:00</lastmod>
+<image:image>
+<image:loc>https://karimjedda.github.io/funnybretzel/media/posts/2/memoryusage.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/datamining-a-flat-in-munich-2.html</loc>
+<lastmod>2019-01-14T18:15:11+01:00</lastmod>
+<image:image>
+<image:loc>https://karimjedda.github.io/funnybretzel/media/posts/7/flathunt.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/datamining-the-next-series-to-watch-part-1.html</loc>
+<lastmod>2019-01-14T18:14:46+01:00</lastmod>
+<image:image>
+<image:loc>https://karimjedda.github.io/funnybretzel/media/posts/3/dataminingayeeee.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://karimjedda.github.io/funnybretzel/switching-from-lektor-to-publii.html</loc>
+<lastmod>2019-01-14T18:21:36+01:00</lastmod>
+<image:image>
+<image:loc>https://karimjedda.github.io/funnybretzel/media/posts/8/bubusbro.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 </urlset>
